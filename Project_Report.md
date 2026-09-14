@@ -2,7 +2,7 @@
 
 ---
 
-**Candidate:** Polaki Koushik
+**Candidate:** Madhuharshini Kolla
 **Project Type:** End-to-End Edge AI System — Design, Training, Optimization & Deployment
 **Technology Stack:** YOLOv8n · ONNX Runtime · Raspberry Pi 4 · RTSP · OpenCV · Python · Albumentations · Ultralytics
 
@@ -586,44 +586,3 @@ The trained model was successfully exported to ONNX format:
 
 ---
 
-## 14. Resume-Ready Summary
-
-### 3-Line Version
-
-Designed and deployed an edge AI fire/smoke detection system using YOLOv8n + ONNX Runtime on Raspberry Pi 4, processing RTSP IP camera streams at <200ms latency with 86.1% mAP@50. Trained on a curated 24K+ image multi-source dataset with class-aware augmentation, achieving 84.3% precision and 78.4% recall across fire and smoke classes. Implemented temporal verification and multi-channel alerting (Telegram/Email/SMS) for a fully offline, privacy-preserving safety monitoring solution.
-
-### 5-Line Version
-
-Architected an end-to-end edge AI system for real-time fire and smoke detection, deployed on Raspberry Pi 4 hardware with zero cloud dependency. Trained a YOLOv8n model on 24,238 curated images from 3 datasets (D-Fire, Nishanth FireSmoke, DFS), achieving 86.1% mAP@50 and 84.3% precision through class-aware augmentation and cosine LR scheduling. Optimized for edge deployment via ONNX export (11.8 MB), achieving <200ms end-to-end inference on ARM CPU. Engineered RTSP integration with automatic reconnection, frame sampling, and 5-frame temporal verification to suppress false alarms. Deployed and validated at an industrial client site with Telegram/Email alerting pipeline, supporting offline operation and privacy-preserving on-premise analytics.
-
-### LinkedIn Project Description
-
-**Edge AI Fire and Smoke Detection System** | YOLOv8 . ONNX . Raspberry Pi . RTSP . OpenCV
-
-Built a production-grade, privacy-preserving fire detection system that runs entirely on a $55 Raspberry Pi — no cloud, no subscriptions, no data leaving the premises.
-
-- Trained YOLOv8n on 24K+ images with 86.1% mAP@50, 84.3% precision
-- ONNX-optimized inference: <200ms end-to-end on ARM CPU
-- RTSP IP camera integration with temporal verification (5-frame consistency)
-- Multi-channel alerts: Telegram + Email + SMS with detection evidence
-- Validated at industrial client site (Vijaya Durga Engineers, Vijayawada)
-
-Tech: Python, Ultralytics, ONNX Runtime, OpenCV, Raspberry Pi 4, Albumentations
-
-### 60-Second Interview Explanation
-
-"I built an edge AI system that detects fire and smoke in real-time using existing CCTV cameras and a Raspberry Pi — no cloud required.
-
-The core challenge was balancing detection accuracy with the compute constraints of a $55 ARM device. I trained a YOLOv8 Nano model on 24,000+ images I curated from three public datasets, handling format conversion from Pascal VOC to YOLO, data augmentation with 2x oversampling for the harder smoke class, and careful train/val splitting.
-
-The model achieved 86% mAP at IoU 0.5, with 84% precision. I exported it to ONNX format — which cut inference from 500ms in PyTorch to under 200ms on the Pi ARM CPU.
-
-For the production pipeline, I built an RTSP stream handler with automatic reconnection, a frame sampling system to keep CPU usage sustainable, and a temporal verification module that requires fire or smoke to appear in 5 consecutive frames before triggering an alert — this eliminated most false positives from things like sunlight glare.
-
-Alerts go out via Telegram, email, or SMS with the actual detection frame attached as evidence. The whole system runs offline — no internet needed except for sending alerts — which was critical because 70% of our surveyed users refused to upload CCTV footage to the cloud.
-
-I validated it at an industrial client site in Vijayawada, and it successfully detected fire and smoke across different lighting conditions, camera angles, and backgrounds."
-
----
-
-*Report prepared by Polaki Koushik — September 2026*
