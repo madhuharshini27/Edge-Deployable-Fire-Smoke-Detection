@@ -40,7 +40,6 @@
 - [Edge Deployment (Raspberry Pi)](#-edge-deployment-raspberry-pi)
 - [RTSP Camera Setup](#-rtsp-camera-setup)
 - [Alert System](#-alert-system)
-- [Project Structure](#-project-structure)
 - [Results](#-results)
 - [Future Roadmap](#-future-roadmap)
 - [Contributing](#-contributing)
