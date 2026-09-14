@@ -439,31 +439,6 @@ def send_alert(image_path, message):
 
 ---
 
-## 📁 Project Structure
-
-```
-edge-fire-smoke-detection/
-├── 📓 edge_fire_smoke.ipynb      # Complete training pipeline notebook
-├── 🏋️ best.pt                    # Trained PyTorch weights (6.0 MB)
-├── ⚡ best.onnx                   # ONNX optimized model (11.8 MB)
-├── 📊 data.yaml                   # Dataset configuration
-├── 📄 Project_Report.md           # Full professional project report
-├── 📄 Executive_Summary.md        # 2-page executive summary
-├── 📐 Architecture_Diagrams.md    # System architecture diagrams
-├── 📋 requirements.txt            # Python dependencies
-├── 📜 README.md                   # This file
-└── 📂 runs/                       # Training outputs
-    └── detect/
-        └── train/
-            ├── weights/
-            │   ├── best.pt
-            │   └── last.pt
-            ├── results.csv
-            └── confusion_matrix.png
-```
-
----
-
 ## 📈 Results
 
 ### Training Convergence
