@@ -532,7 +532,6 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 - [D-Fire Dataset](https://github.com/gaiasd/DFireDataset) — Primary dataset source
 - [ONNX Runtime](https://onnxruntime.ai/) — Edge inference engine
 - [Albumentations](https://albumentations.ai/) — Data augmentation library
-- Dr. P. Sukanya — Project guidance and mentorship
 - VR Siddhartha Engineering College, Vijayawada — Infrastructure and academic support
 
 ---
