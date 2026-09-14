@@ -7,7 +7,7 @@
 </p>
 
 <h1 align="center">🔥 Edge-Based Real-Time Fire & Smoke Detection</h1>
-
+ 
 <p align="center">
   <strong>YOLOv8 · ONNX Runtime · Raspberry Pi 4 · RTSP IP Cameras</strong>
 </p>
